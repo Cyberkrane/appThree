@@ -37,4 +37,8 @@ export class PorPaisComponent {
         this.paises = [];
       })
   }
+
+  sugerencias(){
+    this.hayError = false;
+  }
 }

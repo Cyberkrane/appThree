@@ -4,7 +4,9 @@
 <div class="row">
     <div class="col">
         <app-pais-input
-         (onEnter)="buscar( $event )">    <!--(onEnter) esta escuchando en el padre   -->
+         (onEnter)="buscar( $event )"    
+         (onDebounce)="sugerencias()"
+         placeholder="Buscar por Pais ...">
         </app-pais-input>
     </div>
 </div>
