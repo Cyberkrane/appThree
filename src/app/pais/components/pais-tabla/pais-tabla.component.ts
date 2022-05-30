@@ -14,8 +14,5 @@ export class PaisTablaComponent {
 
   @Input() paises:Country[] = []
   
-  constructor() {
-    console.log(this.paises + 'recibido en el input')
-   }
-
+  constructor() {}
 }

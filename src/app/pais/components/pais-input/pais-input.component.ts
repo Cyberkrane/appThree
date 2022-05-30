@@ -29,14 +29,10 @@ export class PaisInputComponent  implements OnInit{
 
   buscar(){
  this.onEnter.emit(this.termino);
- console.log(this.termino + ' enviando desde pais-tabla')
     // this.termino = ''
   }
 
   teclaPresionada( event: any){
-    // const valor = event?.target.value; esta es una forma de hacer un debouncer
-    // console.log(valor)
-    // console.log(this.termino)
 
     this.debouncer.next( this.termino )
   }
