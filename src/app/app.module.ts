@@ -6,10 +6,12 @@ import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
